@@ -1,62 +1,62 @@
 # -*- coding: utf-8 -*-
 
-import ASUL
-from ASUL.lib.curve.ttypes import *
+import LINETCR
+from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 # https://kaijento.github.io/2017/05/19/web-scraping-youtube.com/
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 
-cl = ASUL.LINE()
+cl = LINETCR.LINE()
 #cl.login(qr=True)
 cl.login(token="EoS1ZdaF1MbwScNhuJA2.9Sm3T9Xx0KnrSzlk9Hk4eG.HdgYALgu9VPO4taPnM8A+vkL/5XnJQoh/pWRbTqhk9E=")
 cl.loginResult()
 
-ki = ASUL.LINE()
+ki = LINETCR.LINE()
 ki.login(token="EoOhuCFrgFcM6bkNF4g8.xXy98MfmNoOyPyDa0rPa/a.Tj02+GHfKBWX7e9T9UVyQ0aSmMtsRAfbBEseHlbsS74=")
 ki.loginResult()
 
-ki2 = ASUL.LINE()
+ki2 = LINETCR.LINE()
 ki2.login(token="EoiGTLczlToT5WjwMMm9.KbQeRflnGcfWvP4E8jb2/q.grJICe7RGjRfND4Ftq/69dZLDah6dwWwoH3w+gNLEKI=")
 ki2.loginResult()
 
-ki3 = ASUL.LINE()
+ki3 = LINETCR.LINE()
 ki3.login(token="Eo2LhDeZNhQkmTeM5ya2.hTNONrbkq4pkqGf72/t5OG.xWnYTAaMSLQb73YHEDfnK9ZKcNq3nqVQq2gSlh7qPOI=")
 ki3.loginResult()
 
-ki4 = ASUL.LINE()
+ki4 = LINETCR.LINE()
 ki4.login(token="EoT3RtV90k4jgI3bTpLb.hIpf2LIdTlbVduurxb3MsW.c/U2w2Z9bISYMCwWCwz5qVISq4ymJzGiL1LuNyugPo8=")
 ki4.loginResult()
 
-ki5 = ASUL.LINE()
+ki5 = LINETCR.LINE()
 ki5.login(token="EodK8HM1Fw80JYi04qZ4.SOX54q0FnR1vDU/bwTZtDa.to3Rm0UvqKBemKAL7P5SGcIhbN4SMH4xlilWRg81fxM=")
 ki5.loginResult()
 
-k1 = ASUL.LINE()
+k1 = LINETCR.LINE()
 #kt.login(qr=True)
 k1.login(token="Eox3NPPUpfzQRoRwWWc8.+fhQsuINLTcdW2mhbJtfYa.jl9jOyg2yAEKrq5pFSKpkP70tSs6k2TbN2Xn6+rivug=")
 k1.loginResult()
 
-k2 = ASUL.LINE()
+k2 = LINETCR.LINE()
 #k2.login(qr=True)
 k2.login(token="EoWragHaRgDLMugbqJx4.5/avHRlU46Bv3ru/WZIrva.EyIvPbR1u7IJhMr0O8yqWipazo48UAljAG+XYKxnbR0=")
 k2.loginResult()
 
-k3 = ASUL.LINE()
+k3 = LINETCR.LINE()
 #ki.login(qr=True)
 k3.login(token="EouKpbNP4cN3Ys5HjXZ4.gHKc1jCSdCdhGFQD/3Sa1a.qY8s8nioeCGX239vnWFrIk9FMsG0aJJbU5kvcjMQlXQ=")
 k3.loginResult()
 
-k4 = ASUL.LINE()
+k4 = LINETCR.LINE()
 #k4.login(qr=True)
 k4.login(token="EosOG82Yikcy07NsVqc2.Kp4I+PXQ9mJyxGm0wkq4CG.HUv79xV5U3aoP6lbJDVt4djxmj0rdCkD/iY3dTCqLn0=")
 k4.loginResult()
 
-k5 = ASUL.LINE()
+k5 = LINETCR.LINE()
 #k5.login(qr=True)
 k5.login(token="EovGCwnA3Mdig5oMS94c.gn/aH+yn2ivAJ0UOAsDv3a.XaLlPOO9fQcgIaVbBJTaBn31cnEqGXeLHt5qtFJgDZc=")
 k5.loginResult()
 
-ki6 = ASUL.LINE()
+ki6 = LINETCR.LINE()
 
 AsulLogged = False
 
